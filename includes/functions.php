@@ -47,7 +47,7 @@ function afficheProduit($produit) {
 function cardProduit($produit) {
   echo '<div class="card col-md-4 col-sm-12">
   <img class="card-img-top" src="images/' . $produit['image'] . '" alt="Card image cap" style="max-width: 10rem;">
-  <div class="card-body bg-warning">
+  <div class="card-body bg-info">
     <h5 class="card-title">' . $produit[PRODUCT_NAME] . '</h5>
     <p class="card-text h-auto">' . $produit["description"] . '</p>
   </div>
