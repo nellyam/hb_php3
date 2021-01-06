@@ -12,6 +12,10 @@ $produits = array_slice($mesProduits, 0, 3);
 foreach($produits as $item) {
     cardProduit($item);
 }
+?>
+</div>
+<?php
+include "includes/footer.php";
 
-// var_dump($produits);
+
 
